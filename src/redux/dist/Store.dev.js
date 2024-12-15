@@ -11,7 +11,7 @@ var _CartSlice = require("./Slices/CartSlice");
 
 var store = (0, _toolkit.configureStore)({
   reducer: {
-    cart: _CartSlice.CartSlice
+    cart: _CartSlice.CartSlice.reducer
   }
 });
 exports.store = store;
